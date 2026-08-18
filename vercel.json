@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/uploads/:path*",
+      "destination": "https://petshop-backend-8nk4.onrender.com/uploads/:path*"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
