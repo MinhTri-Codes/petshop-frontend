@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const apiClient = axios.create({
-  baseURL: 'http://localhost:5000/api', // Đường dẫn tới Backend của bạn
+  baseURL: 'https://petshop-backend-8nk4.onrender.com/api', // Đường dẫn tới Backend trên Render
   headers: {
     'Content-Type': 'application/json',
   },
